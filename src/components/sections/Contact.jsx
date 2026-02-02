@@ -9,8 +9,8 @@ export const Contact = () => {
         {
             icon: Mail,
             label: 'Email',
-            value: 'oueischristopher@gmail.com',
-            href: 'mailto:oueischristopher@gmail.com'
+            value: 'oueischristopher@gmail.com | coueis@andrew.cmu.edu',
+            href: 'mailto:oueischristopher@gmail.com,coueis@andrew.cmu.edu'
         },
         {
             icon: Phone,
