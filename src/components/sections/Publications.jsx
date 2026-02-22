@@ -2,7 +2,7 @@ import React from 'react';
 import { Section } from '../ui/Section';
 import { Card } from '../ui/Card';
 import { Badge } from '../ui/Badge';
-import { FileText, Award, Newspaper } from 'lucide-react';
+import { FileText, Award, Newspaper, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { publications, awards } from '../../data/publications';
 
@@ -59,10 +59,21 @@ export const Publications = () => {
 
             {/* Awards */}
             <div>
-                <h3 className="text-xl font-display font-semibold text-white mb-6 flex items-center gap-2">
-                    <Award className="text-gold-400" size={24} />
-                    Awards & Honors
-                </h3>
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-6 gap-4">
+                    <h3 className="text-xl font-display font-semibold text-white flex items-center gap-2 m-0">
+                        <Award className="text-gold-400" size={24} />
+                        Awards & Honors
+                    </h3>
+                    <a
+                        href="https://www.usf.edu/honors/news/2024/usf-student-christopher-oueis-earns-multiple-national-awards-sets-sights-even-higher.aspx"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center text-sm text-gold-400 hover:text-gold-300 transition-colors gap-1 group"
+                    >
+                        <span>Learn More</span>
+                        <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                    </a>
+                </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                     {awards.map((award, index) => (
                         <motion.div

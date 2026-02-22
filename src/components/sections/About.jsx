@@ -78,15 +78,15 @@ export const About = () => {
 
                         <div className="space-y-4 text-gray-300 leading-relaxed">
                             <p>
-                                I bridge AI, Data, and Policy. With experience spanning federal intelligence agencies, the State Department, and the United Nations, I specialize in building AI/ML systems that governments can trust and citizens can understand.
+                                I turn complex data into actionable intelligence. With experience spanning federal intelligence agencies, the U.S. State Department, and the United Nations, I specialize in building predictive models and analytics systems that detect patterns, assess risk, and drive high-stakes decisions.
                             </p>
 
                             <p>
-                                My foundation in <strong>econometrics and international relations</strong> from Carnegie Mellon, USF, and Panthéon-Assas Paris II, combined with hands-on work at the <strong>Defense Intelligence Agency, U.S. State Department, and UN ESCWA</strong>, enables me to create responsible AI solutions for complex governance challenges.
+                                My foundation in <strong>econometrics, machine learning, and quantitative analysis</strong> from Carnegie Mellon and USF, combined with hands-on work at the <strong>Defense Intelligence Agency, U.S. State Department, and UN ESCWA</strong>, has given me deep expertise in anomaly detection, threat identification, and data pipeline engineering across large-scale, real-world datasets.
                             </p>
 
                             <p>
-                                From reducing intelligence analysis lag times by 87% at CENTCOM to building forecasting tools for 22 Arab nations at the UN, I focus on creating systems that are <strong>transparent, accountable, and equitable</strong>. Currently pursuing my MS in Public Policy at CMU Heinz College and joining Deloitte GPS in 2026.
+                                From reducing intelligence analysis lag times by 87% at CENTCOM to building ML forecasting tools processing data across 22 nations at the UN, I thrive at the intersection of <strong>data science, security, and decision-making under uncertainty</strong>. Currently pursuing my MS in Public Policy &amp; Data Analytics at CMU Heinz College.
                             </p>
                         </div>
                     </div>

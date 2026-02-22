@@ -1,19 +1,5 @@
 export const experience = [
     {
-        id: 1,
-        title: 'Summer Scholar – Data Management Solutions',
-        organization: 'Deloitte GPS',
-        location: 'Roslyn, Virginia',
-        period: 'June 2026 - August 2026',
-        status: 'incoming',
-        logo: 'deloitte-logo.png',
-        coordinates: { lat: 38.8951, lng: -77.0364 },
-        description: 'Incoming summer scholar in Government and Public Services practice focusing on data management solutions for federal clients',
-        highlights: [],
-        skills: '',
-        hours: ''
-    },
-    {
         id: 2,
         title: 'Junior Forecasting/ML Analyst',
         organization: 'U.N. Economic & Social Commission for Western Asia',

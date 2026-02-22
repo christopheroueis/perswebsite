@@ -1,5 +1,37 @@
 export const projects = [
     {
+        id: 'ispar',
+        title: 'ISPAR: Integrated Simulation Platform for Arab Region',
+        organization: 'UN ESCWA',
+        year: '2025',
+        description: 'Policy simulation platform enabling Arab UN member states to model economic indicators, technology adoption, and development scenarios through interactive data-driven simulations.',
+        fullDescription: 'Contributed to ISPAR, ESCWA\'s flagship integrated simulation platform that enables policymakers across 22 Arab nations to model and forecast socioeconomic indicators. Updated and integrated 4 new technology indicator datasets into the index simulator, aligning statistical methods with real-time simulations to support evidence-based policy decisions across the region.',
+        tech: ['Python', 'Statistical Modeling', 'Data Integration', 'Policy Simulation', 'EViews'],
+        impact: 'Live platform used by policymakers across 22 Arab nations',
+        metrics: {
+            label: '22 Nations Served',
+            value: '22'
+        },
+        logo: 'un-escwa-logo.png',
+        link: 'https://ispar.unescwa.org/'
+    },
+    {
+        id: 'cedar',
+        title: 'Cedar: Climate-Smart Lending Platform',
+        organization: 'TartanHacks 2026',
+        year: '2026',
+        description: 'Mobile-first platform helping Microfinance Institutions in developing countries make climate-smart lending decisions using real-time climate data, ML risk models, and AI-powered transcription.',
+        fullDescription: 'Built in under 24 hours at TartanHacks 2026, Cedar is a mobile-first platform that helps Microfinance Institutions (MFIs) in developing countries make climate-smart lending decisions. By integrating real-time climate data, machine learning risk models, and AI-powered conversation transcription, loan officers can make more informed decisions that protect both borrowers and lenders from climate-related risks.',
+        tech: ['React', 'Node.js', 'Python', 'XGBoost', 'FastAPI', 'AI Transcription'],
+        impact: 'Built in <24hrs at TartanHacks 2026',
+        metrics: {
+            label: '92% ML Accuracy',
+            value: '92%'
+        },
+        logo: 'cedarlogo.png',
+        link: 'https://cedar-tartanhacks-final.vercel.app/'
+    },
+    {
         id: 'al-minhaj',
         title: 'Al-Minhaj: AI Policy Support System',
         organization: 'UN ESCWA',

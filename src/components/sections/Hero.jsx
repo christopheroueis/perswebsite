@@ -5,7 +5,7 @@ import { AnimatedBackground } from '../AnimatedBackground';
 
 export const Hero = () => {
     const [displayText, setDisplayText] = useState('');
-    const fullText = 'AI & Data Science for Smarter Governance';
+    const fullText = 'AI & Analytics for Security and Smarter Decisions';
 
     useEffect(() => {
         let index = 0;
